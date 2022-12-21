@@ -53,17 +53,15 @@ const Header = () => {
               aria-label="Global"
             >
               <div className="flex lg:min-w-0 lg:flex-1" aria-label="Global">
-                <Link to="/" className="">
-                  <div className="flex">
-                    <Link to="/" className="-m-1.5 p-1.5">
-                      <img
-                        className="h-16"
-                        src={require("../images/writerszone.png")}
-                        alt=""
-                      />
-                    </Link>
-                  </div>
-                </Link>
+                <div className="flex">
+                  <Link to="/" className="-m-1.5 p-1.5">
+                    <img
+                      className="h-16"
+                      src={require("../images/writerszone.png")}
+                      alt=""
+                    />
+                  </Link>
+                </div>
               </div>
               <div className="flex lg:hidden">
                 <button

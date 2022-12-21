@@ -19,6 +19,13 @@ const Blog = () => {
       .then((data) => [setBlog(data)]);
   }, []);
 
+  // const blogs = {
+  //   _id,
+  //   title,
+  //   description,
+  //   image,
+  // };
+
   return (
     <div className="">
       <div className="mx-auto max-w-7xl sm:px-6 lg:px-8">
@@ -43,7 +50,7 @@ const Blog = () => {
                   /> */}
                 </div>
                 <h3 className="mt-6 text-lg font-bold text-gray-900">
-                  <Link to="#">
+                  <Link to="/blogg" state={blog}>
                     <span className="absolute inset-0" />
                     {blog.title}
                   </Link>

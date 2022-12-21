@@ -3,7 +3,7 @@ import Spline from "@splinetool/react-spline";
 export default function Pencil() {
   return (
     <>
-      <div className="h-12 w-48">
+      <div className="h-full w-full mt-12">
         <Spline scene="https://prod.spline.design/j5KDJdCy9Ah6bh5X/scene.splinecode" />
       </div>
       {/* <section class="overflow-hidden text-gray-700">
