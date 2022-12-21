@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Dialog } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { Link } from "react-router-dom";
-import Pencil from "./Pencil";
+// import Pencil from "./Pencil";
 
 const navigation = [
   { name: "Services", href: "/services" },
@@ -87,7 +87,11 @@ const Header = () => {
               <div className="hidden lg:flex lg:min-w-0 lg:flex-1 lg:justify-end">
                 <div className="flex-row rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                   {/* <h6 className="">Get in touch</h6> */}
-                  <a href="tel: +91 - 999 - 999 - 9999" target="_blank">
+                  <a
+                    href="tel: +91 - 999 - 999 - 9999"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
                     <span style={{ fontSize: 11 }} className="flex-row">
                       {/* <svg
                       xmlns="http://www.w3.org/2000/svg"
@@ -153,7 +157,11 @@ const Header = () => {
                     <div className="py-6">
                       <div className="flex-row rounded-lg px-3 py-1.5 text-sm font-semibold leading-6 text-gray-900 shadow-sm ring-1 ring-gray-900/10 hover:ring-gray-900/20">
                         {/* <h6 className="">Get in touch</h6> */}
-                        <a href="tel: +91 - 999 - 999 - 9999" target="_blank">
+                        <a
+                          href="tel: +91 - 999 - 999 - 9999"
+                          target="_blank"
+                          rel="noopener noreferrer"
+                        >
                           <span style={{ fontSize: 11 }}> Get in touch </span>{" "}
                           <br></br> +91 999-999-9999
                         </a>
